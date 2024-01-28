@@ -78,7 +78,7 @@
 	//		and upload this HTML file to the same folder.
 	// 9.	To load your JSON in an external file, we'll overwrite the local JSON above.
 	// 		First add a word to the following line that says this function will operate asynchronously.
-	buildCardsFromData = () => {
+	buildCardsFromData = async () => {
 		// 10.	Put the word "await" before any command that requires waiting for data to load.
 		// 11.	Fetch the JSON file name you used above (must be in the same folder).
 		// let response = _____ fetch(______________) ;
@@ -89,6 +89,8 @@
 		// Below is a quick-and-dirty way to make divs from your JSON,
 		// just by loading HTML tags into a big string variable.
 		// 3.	Fill in the iterator that creates one array from another.
+		let cardData = await fetch("JMS_Example.json");	
+		let cardJson = await cardData.json();
 		cardsHTML = cardsJSON.map(
 			card => {
 				// 4	Add the punctuation marks that enclose a string template.

@@ -1,0 +1,32 @@
+[
+  {
+    "username" : "epicUser",
+    "password" : "password",
+    "points"  : 0,
+    "currentBet" : 53
+  },
+  {
+    "username" : "MyAccount",
+    "password" : "12345",
+    "points"  : 12,
+    "currentBet" : 5
+  },
+  {
+    "username" : "Person55",
+    "password" : "98765",
+    "points"  : 3,
+    "currentBet" : 15
+  },
+  {
+    "username" : "Mobile Application Enjoyer",
+    "password" : "ILOVEAPPS",
+    "points"  : 999,
+    "currentBet" : 999
+  },
+  {
+    "username" : "Bot1",
+    "password" : "bot1",
+    "points"  : 0,
+    "currentBet" : 0
+  }
+]
