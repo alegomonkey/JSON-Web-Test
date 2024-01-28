@@ -90,8 +90,8 @@
 		// just by loading HTML tags into a big string variable.
 		// 3.	Fill in the iterator that creates one array from another.
 		let cardData = await fetch("JMS_Example.json");	
-		let cardJson = await cardData.json();
-		cardsHTML = cardsJSON.map(
+		let importedCardJson = await cardData.json();
+		cardsHTML = importedCardJson.map(
 			card => {
 				// 4	Add the punctuation marks that enclose a string template.
 				// 5.	Also fill in four of the labels (keys) from your sample JSON records.
